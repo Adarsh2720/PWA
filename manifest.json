@@ -1,9 +1,27 @@
 {
-    "name":"Furniture",
-    "start_url":"/index.html",
-    "short_name":"Furniture",
-    "display":"standalone",
-    "background_color":"#FFE902",
-    "theme_color":"#FFE1C4",
-    "orientation": "portrait-primary"
+    "name": "Furniture",
+    "short_name": "Furniture",
+    "start_url": "/",
+    "scope": ".",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FF6600",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "assets/logo/favicon144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+            
+        },
+        {
+            "src": "assets/logo/favicon512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+            
+        }
+    ]
+
+
 }
